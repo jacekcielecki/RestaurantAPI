@@ -24,6 +24,6 @@ jobs:
       - name: Restore dependencies #get nuget packages
         run: dotnet restore 
       - name: Build
-        run: dotnet biuld --no-restore
+        run: dotnet build --no-restore
       - name: Test
         run: dotnet test
